@@ -37,3 +37,9 @@ The following is a description of how we can add the components provided in the 
 $ cp -r ~/esp/esp-idf-lib/components/* ~/.platformio/packages/framework-espidf/components
 ```
 
+**This** can also be solved by adding the following line to the CMakeList.txt file in the root directory of the Project.
+```cmake
+list(APPEND EXTRA_COMPONENT_DIRS /home/iot/esp/esp-idf-lib/components)
+```
+> There have been time that this has not worked. It may be you have to add the line in the CMakeList.txt file, then re-open the PlatformIO project, but at times it refused to compile.
+
