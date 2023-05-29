@@ -1,0 +1,7 @@
+source "/home/iot/.platformio/packages/framework-espidf/components/efuse/Kconfig"
+source "/home/iot/.platformio/packages/framework-espidf/components/esp32/Kconfig"
+source "/home/iot/.platformio/packages/framework-espidf/components/esp_common/Kconfig"
+source "/home/iot/.platformio/packages/framework-espidf/components/esp_system/Kconfig"
+source "/home/iot/.platformio/packages/framework-espidf/components/log/Kconfig"
+source "/home/iot/.platformio/packages/framework-espidf/components/newlib/Kconfig"
+source "/home/iot/.platformio/packages/framework-espidf/components/spi_flash/Kconfig"

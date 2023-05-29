@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/iot/.platformio/packages/framework-espidf/components/bootloader/subproject",
+    "build_dir":          "/home/iot/Documents/PlatformIO/Projects/AHT3/.pio/build/esp32dev/bootloader",
+    "config_file":        "/home/iot/Documents/PlatformIO/Projects/AHT3/sdkconfig.esp32dev",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "4.3.2",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/iot/.platformio/packages/framework-espidf/components/efuse/Kconfig;/home/iot/.platformio/packages/framework-espidf/components/esp32/Kconfig;/home/iot/.platformio/packages/framework-espidf/components/esp_common/Kconfig;/home/iot/.platformio/packages/framework-espidf/components/esp_system/Kconfig;/home/iot/.platformio/packages/framework-espidf/components/log/Kconfig;/home/iot/.platformio/packages/framework-espidf/components/newlib/Kconfig;/home/iot/.platformio/packages/framework-espidf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/iot/.platformio/packages/framework-espidf/components/bootloader/Kconfig.projbuild;/home/iot/.platformio/packages/framework-espidf/components/esptool_py/Kconfig.projbuild;/home/iot/.platformio/packages/framework-espidf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/iot/.platformio/packages/framework-espidf/components/bootloader", "/home/iot/.platformio/packages/framework-espidf/components/bootloader_support", "/home/iot/.platformio/packages/framework-espidf/components/efuse", "/home/iot/.platformio/packages/framework-espidf/components/esp32", "/home/iot/.platformio/packages/framework-espidf/components/esp_common", "/home/iot/.platformio/packages/framework-espidf/components/esp_hw_support", "/home/iot/.platformio/packages/framework-espidf/components/esp_rom", "/home/iot/.platformio/packages/framework-espidf/components/esp_system", "/home/iot/.platformio/packages/framework-espidf/components/esptool_py", "/home/iot/.platformio/packages/framework-espidf/components/hal", "/home/iot/.platformio/packages/framework-espidf/components/log", "/home/iot/.platformio/packages/framework-espidf/components/bootloader/subproject/main", "/home/iot/.platformio/packages/framework-espidf/components/bootloader/subproject/components/micro-ecc", "/home/iot/.platformio/packages/framework-espidf/components/newlib", "/home/iot/.platformio/packages/framework-espidf/components/partition_table", "/home/iot/.platformio/packages/framework-espidf/components/soc", "/home/iot/.platformio/packages/framework-espidf/components/spi_flash", "/home/iot/.platformio/packages/framework-espidf/components/xtensa", "" ]
+}
