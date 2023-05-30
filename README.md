@@ -2,7 +2,7 @@
 This is a repository that contains PlatformIO Projects that implement ESP Examples that can be used with the [SaTC-PCB](https://github.com/xinwenfu/SaTC-PCB), more specifically the **Version 2** available at [Amazon](https://www.amazon.com/dp/B0C24FJBG9). 
 
 # Notice
-Some of the ESP-32 PCB boards had issues when using platform IO. The firmware would compile and flash, however the PIO monitor did not receive any communications from the ESP32. In this case it was necessary to use the **idf.py** monitor. Open a **ESP IDF terminal** and type **idf.py monitor** you will need to hold the boot button until the upload starts. Make sure the PIO serial monitor has been closed.  
+Some of the ESP-32 PCB boards had issues when using platform IO. The firmware would compile and flash, however the PIO monitor did not receive any communications from the ESP32. In this case it was necessary to use the **idf.py** monitor. Open a **ESP IDF terminal** and type **idf.py monitor** you will need to hold the boot button until the upload starts if it does not detect the device and start the upload on its own. Make sure the PIO serial monitor has been closed.  
 
 ## Virtual Box 
 If you are using a Virtual Box VM (Or some other virtualization software) it is necessary for you to give the VM access to USB devices that are connected to your host machine. 
